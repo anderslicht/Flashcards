@@ -46,8 +46,6 @@ body {
   padding: var(--cardPadding);
   border: var(--cardBorder);
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   overflow: scroll;
   overflow-x: hidden;
