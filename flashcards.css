@@ -1,0 +1,55 @@
+:root {
+  --bgcolor1: #FFFFFF;
+  --bgcolor2: #EEEEEE;
+  --text1: black;
+  --cardHeight: 300px;
+  --cardWidth: 350px;
+  --cardPadding: 5px;
+  --cardTextSize: 1.5rem;
+  --cardBorder: solid 3px;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: roboto, sans, sansserif;
+  font-size: 10px;
+}
+
+.content1 {
+  background-color: var(--bgcolor1);
+  color: var(--text1);
+  font-weight: bold;
+  font-size: var(--cardTextSize);
+  height: var(--cardHeight);
+  width: var(--cardWidth);
+  margin: 10px;
+  cursor: pointer;
+  border: var(--cardBorder);
+  padding: var(--cardPadding);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.content2 {
+  background-color: var(--bgcolor2);
+  color: var(--text1);
+  font-size: var(--cardTextSize);
+  height: var(--cardHeight);
+  width: var(--cardWidth);
+  margin: 10px;
+  cursor: pointer;
+  padding: var(--cardPadding);
+  border: var(--cardBorder);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
